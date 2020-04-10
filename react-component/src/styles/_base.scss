@@ -1,0 +1,155 @@
+
+/* app 公用样式 用在单元报告 教师端和学生端*/
+* {	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);	-webkit-box-sizing: border-box;	-moz-box-sizing: border-box;box-sizing: border-box;}
+input {	line-height: normal;}
+html {	*overflow-x: hidden;}
+body {-webkit-overflow-scrolling: touch;text-align: center;margin: 0 auto;padding: 0;font-size: 12px;color: #61616f;line-height: 20px;font-family:Arial;-webkit-tap-highlight-color: transparent;-webkit-text-size-adjust: none;background: #fff;overflow: auto;}
+body.fix{ position: fixed;width: 100%;}
+body>div {	text-align: left;	margin-right: auto;	margin-left: auto; position: relative;}
+div,form,ul,ol,li,span,dl,dt,dd,input {	padding: 0;	/*text-align: left;*/}
+img,a img,p,fieldset {	border: 0;	margin: 0;	padding: 0;}
+input,a {	outline: 0;	-webkit-appearance: none;	border-radius: 0;}
+input::-webkit-search-cancel-button {display: none;}
+i {font-style: normal;}
+h1,h2,h3,h4 {	margin: 0;	padding: 0;}
+ul,ol,li {	list-style: none;}
+table,td,input {	font-size: 12px;	word-break: break-all;}
+input[type="button"] {	cursor: pointer}
+img {vertical-align: middle;}
+span {font-weight:normal;}
+a:focus,input:focus {	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);	tap-highlight-color: rgba(0, 0, 0, 0);}
+a {outline-style: none;text-decoration: none;color: #61616f;-webkit-touch-callout: none;cursor:pointer;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,textarea,p,blockquote,th,td,iframe {	margin: 0;	padding: 0;	font-weight: normal;font-family: Arial;}
+input,select {	margin: 0;	padding: 0;	font-family: Arial}
+
+body{
+  background: #ccc;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+i {
+  font-style: normal;
+}
+/* flex */
+.box {
+  display: -o-box;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+.boxHorizontal {
+  display: -o-box;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -o-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-orient: horizontal;
+  box-orient: horizontal;
+  -o-flex-direction: row;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.boxVertical {
+  display: -o-box;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -o-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -o-flex-direction: column;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.boxFlex1 {
+  -o-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  -o-flex: 1;
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.boxPack {
+  -o-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-box-pack: justify;
+  box-pack: justify;
+  -o-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.boxPackEnd {
+  -o-box-pack: end;
+  -moz-box-pack: end;
+  -webkit-box-pack: end;
+  box-pack: end;
+  -o-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.boxCenter {
+  -o-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-box-pack: center;
+  box-pack: center;
+  -o-justify-content: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.boxAlignEnd {
+  -o-box-align: end;
+  -moz-box-align: end;
+  -webkit-box-align: end;
+  box-align: end;
+  -o-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+.boxAlignCenter {
+  -o-box-align: center;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  box-align: center;
+  -o-align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.clear:after {
+  content: ".";
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.clear {
+  zoom: 1;
+}

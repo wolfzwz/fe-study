@@ -1,0 +1,89 @@
+@import '../../styles/base.scss';
+
+// table
+.table {
+  background: #fff;
+  :global {
+    /* table */
+    .ant-table-thead > tr > th {
+      background: #ffffff;
+      text-align: center;
+      font-family: PingFangSC-Medium;
+      font-size: 0.32rem;
+      color: #222222;
+      padding: 0.28rem 0;
+    }
+    .ant-table-thead > tr > th .ant-table-column-title {
+      font-weight: bold;
+    }
+    .ant-table-thead > tr > th .ant-table-column-sorter .ant-table-column-sorter-inner {
+      margin: -0.1rem 0 0 0.08rem;
+      height: auto;
+      line-height: auto;
+      color: #ccc;
+    }
+    .ant-table-thead
+      > tr
+      > th
+      .ant-table-column-sorter
+      .ant-table-column-sorter-inner
+      .ant-table-column-sorter-up.on,
+    .ant-table-thead
+      > tr
+      > th
+      .ant-table-column-sorter
+      .ant-table-column-sorter-inner
+      .ant-table-column-sorter-down.on {
+      color: #cccccc;
+    }
+    .ant-table-tbody > tr > td {
+      padding: 0.27rem 0.3rem;
+      line-height: 0.45rem;
+      text-align: center;
+      font-family: PingFangSC-Regular;
+      font-size: 0.32rem;
+      color: #222222;
+      &:first-child {
+        position: relative;
+        &:before {
+          content: ' ';
+          display: block;
+          position: absolute;
+          left: 0;
+          bottom: -1px;
+          width: 0.3rem;
+          border-bottom: 1px solid #fff;
+        }
+      }
+    }
+    .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+      background: #fff;
+    }
+    .ant-table-tbody > tr > td.ant-table-column-sort {
+      background: #fff;
+    }
+    
+    /*arrow*/
+    .ant-table-thead > tr > th .ant-table-column-sorter .ant-table-column-sorter-inner .ant-table-column-sorter-up, .ant-table-thead > tr > th .ant-table-column-sorter .ant-table-column-sorter-inner .ant-table-column-sorter-down{
+      font-size: 0.3rem
+    }
+    .ant-table-thead > tr > th .ant-table-column-sorter .ant-table-column-sorter-inner-full .ant-table-column-sorter-down{
+      margin-top: 0;
+    }
+  }
+}
+.noStudent {
+  padding-top: 2.2rem;
+  .icon {
+    margin: 0 auto 0.4rem;
+    width: 2rem;
+    height: 1.9rem;
+    background: url(./noStudent@2x.png) no-repeat 0 0;
+    background-size: 100%;
+  }
+  font-family: PingFangSC-Regular;
+  font-size: 0.2rem;
+  color: #8e8e8e;
+  letter-spacing: 0;
+  text-align: center;
+}

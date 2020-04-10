@@ -1,0 +1,17 @@
+@import '../../styles/base.scss';
+.tit {
+  font-family: Helvetica-Bold;
+  font-size: 0.32rem;
+  color: #222222;
+  letter-spacing: 0;
+  line-height: 1.2rem;
+  font-weight: bold;
+  background: #fff;
+  i {
+    margin: 0 0.16rem 0 0.3rem;
+    color: #f39700;
+  }
+}
+.table{
+  margin-top: 0.1rem;
+}

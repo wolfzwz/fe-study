@@ -1,0 +1,29 @@
+@import '../../styles/base';
+// fix
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  @extend .boxVertical, .boxCenter, .boxAlignCenter;
+}
+.dialog {
+  position: relative;
+  width: 5.8rem;
+  min-height: 2.92rem;
+  background: #ffffff;
+  border-radius: 0.2rem;
+}
+.close {
+  position: absolute;
+  top: 0.19rem;
+  right: 0.29rem;
+  width: 0.25rem;
+  height: 0.25rem;
+  background: url(./image/close.svg) no-repeat 0 0;
+  background-size: 100%;
+}

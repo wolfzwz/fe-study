@@ -1,0 +1,10 @@
+
+.demo-wrapper,.demo-editor{
+    background: #fff;
+    padding: 0 20px;
+}
+
+.demo-editor{
+    height: 200px;
+    overflow-y: scroll;
+}
