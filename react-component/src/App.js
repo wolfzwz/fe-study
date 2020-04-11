@@ -3,9 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 // import ReactDnd from './ReactDnd';
 // import Demo from './form';
-
-// import Answer from './Answer';
-import EditorI18n from './Editor';
+// import EditorI18n from './Editor';
 
 // 考勤table
 // import KaoqinTable from './KaoqinTable';
@@ -26,9 +24,9 @@ import EditorI18n from './Editor';
 function App() {
   return (
     <div className="App">
-      <EditorI18n></EditorI18n>
-      {/* <Demo />
-      <ReactDnd />
+      {/* <EditorI18n></EditorI18n> */}
+      {/* <Demo /> */}
+      {/* <ReactDnd /> */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -43,7 +41,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <Answer /> */}
       {/* <Tinymce></Tinymce> */}
       {/* <KaoqinTable></KaoqinTable> */}
       {/* <TreeSelect></TreeSelect> */}
