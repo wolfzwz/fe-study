@@ -1,29 +1,28 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ReactDnd from './ReactDnd';
-import Demo from './form';
+// import ReactDnd from './ReactDnd';
+// import Demo from './form';
 
-import Answer from './Answer';
-// import Tinymce from './Tinymce';
-import EditorI18n from './DraftWysiwyg';
+// import Answer from './Answer';
+import EditorI18n from './Editor';
 
 // 考勤table
-import KaoqinTable from './KaoqinTable';
+// import KaoqinTable from './KaoqinTable';
 
-import TreeSelect from './TreeSelect';
+// import TreeSelect from './TreeSelect';
 
-const clentWidth = document.documentElement.clientWidth;
-const newFontSize = (100 / 750) * clentWidth;
-// console.log(newFontSize)
-document.documentElement.style.fontSize = newFontSize + 'px';
-/* 测试 上线前可以删除或者不删除 */
-window.onresize = function() {
-  const clentWidth = document.documentElement.clientWidth;
-  const newFontSize = (100 / 750) * clentWidth;
-  // console.log(newFontSize)
-  document.documentElement.style.fontSize = newFontSize + 'px';
-};
+// const clentWidth = document.documentElement.clientWidth;
+// const newFontSize = (100 / 750) * clentWidth;
+// // console.log(newFontSize)
+// document.documentElement.style.fontSize = newFontSize + 'px';
+// /* 测试 上线前可以删除或者不删除 */
+// window.onresize = function() {
+//   const clentWidth = document.documentElement.clientWidth;
+//   const newFontSize = (100 / 750) * clentWidth;
+//   // console.log(newFontSize)
+//   document.documentElement.style.fontSize = newFontSize + 'px';
+// };
 function App() {
   return (
     <div className="App">
