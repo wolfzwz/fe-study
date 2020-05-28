@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 // import ReactDnd from './ReactDnd';
 // import Demo from './form';
-// import EditorI18n from './Editor';
+import EditorI18n from './Editor';
 
 // 考勤table
 // import KaoqinTable from './KaoqinTable';
@@ -24,7 +24,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <EditorI18n></EditorI18n> */}
+      <EditorI18n></EditorI18n>
       {/* <Demo /> */}
       {/* <ReactDnd /> */}
       <header className="App-header">

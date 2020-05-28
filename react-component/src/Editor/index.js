@@ -1,7 +1,7 @@
 import React from "react";
 import Tinymce from "./Tinymce";
 import ReactDraftWysiwyg from "./DraftWysiwyg";
-import BraftEditor from "./BraftEditor";
+import BraftEditorAll from "./BraftEditor";
 class Editor extends React.Component {
   constructor(props) {
     super(props);
@@ -10,12 +10,12 @@ class Editor extends React.Component {
   render() {
     return (
       <div>
-        <h2>ReactDraftWysiwyg</h2>
+        {/* <h2>ReactDraftWysiwyg</h2>
         <ReactDraftWysiwyg></ReactDraftWysiwyg>
         <h2>Tinymce</h2>
-        <Tinymce></Tinymce>
+        <Tinymce></Tinymce> */}
         <h2>BraftEditor</h2>
-        <BraftEditor></BraftEditor>
+        <BraftEditorAll></BraftEditorAll>
       </div>
     );
   }
