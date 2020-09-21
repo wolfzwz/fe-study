@@ -10,6 +10,9 @@ import EditorI18n from './Editor';
 
 // import TreeSelect from './TreeSelect';
 
+import GuangGaoTiao from './GuangGaoTiao';
+import ImportExcel from './components/import-excel';
+
 // const clentWidth = document.documentElement.clientWidth;
 // const newFontSize = (100 / 750) * clentWidth;
 // // console.log(newFontSize)
@@ -24,7 +27,8 @@ import EditorI18n from './Editor';
 function App() {
   return (
     <div className="App">
-      <EditorI18n></EditorI18n>
+      {/* <GuangGaoTiao/> */}
+      {/* <EditorI18n></EditorI18n> */}
       {/* <Demo /> */}
       {/* <ReactDnd /> */}
       <header className="App-header">
@@ -44,6 +48,7 @@ function App() {
       {/* <Tinymce></Tinymce> */}
       {/* <KaoqinTable></KaoqinTable> */}
       {/* <TreeSelect></TreeSelect> */}
+      <ImportExcel></ImportExcel>
     </div>
   );
 }
