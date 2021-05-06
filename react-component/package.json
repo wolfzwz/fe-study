@@ -17,7 +17,7 @@
     "react-dnd": "^7.4.5",
     "react-dnd-html5-backend": "^7.4.4",
     "react-dom": "^16.8.6",
-    "react-draft-wysiwyg": "^1.13.2",
+    "react-draft-wysiwyg": "^1.14.6",
     "react-scripts": "3.0.1",
     "xlsx": "^0.16.7"
   },
